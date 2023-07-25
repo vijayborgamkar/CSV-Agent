@@ -22,7 +22,7 @@ The script allows you to interact with the Pokémon dataset by asking questions 
 2. create_csv_agent(ChatOpenAI(temperature=0, model_name="gpt-4"), "pokemon.csv", verbose=True): This agent employs the GPT-4 language model, also provided by OpenAI, to respond to your queries.
 
 #### Getting Started
-1. Clone this repository to your local machine or download the script.py file.
+1. Clone this repository to your local machine or download code files.
 2. Set up your OpenAI API key by assigning it to the OPENAI_API_KEY environment variable.
 3. Ensure you have a dataset in one of the following formats: CSV, Excel (XLSX), JSON, or Google BigQuery (GBQ). For this example, a Pokémon dataset in CSV format is provided through a link.
 4. Replace the file_path variable in the run_code function with the link to your dataset. For example, if you have a local file named pokemon.csv, you can set file_path = 'pokemon.csv'.
