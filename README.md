@@ -1,6 +1,6 @@
 ## Language Chain Chatbot for CSV, Excel etc
 
-This repository contains a Python script that implements a language chain chatbot for analyzing Pokemon data. The chatbot uses the Language Chain library, which incorporates OpenAI's powerful language models to interact with users and answer questions related to the Pokémon dataset.
+This repository contains a Python script that implements a language chain chatbot for analyzing Pokemon data. The chatbot uses the Language Chain library, which incorporates OpenAI's powerful language models to interact with users and answer questions related to the Pokemon dataset.
 
 Prerequisites
 Before running the script, ensure you have the following libraries installed:
