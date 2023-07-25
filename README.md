@@ -58,7 +58,7 @@ Please note that only files with the mentioned formats are compatible with this 
 Feel free to experiment with different questions related to the Pokemon dataset and explore the responses provided by the chatbot!
 
 #### Note
-The accuracy and quality of responses depend on the language model's training and the data available in the Pokémon dataset. For more accurate results, consider fine-tuning the language model on a more domain-specific dataset.
+The accuracy and quality of responses depend on the language model's training and the data available in the Pokemon dataset. For more accurate results, consider fine-tuning the language model on a more domain-specific dataset.
 
 Enjoy interacting with your Pokemon data using the Language Chain chatbot! If you have any questions or face any issues, please open an issue in this repository.
 
