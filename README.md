@@ -55,7 +55,7 @@ Please note that only files with the mentioned formats are compatible with this 
 `run_code(file_path, file_extension)`
 
 
-Feel free to experiment with different questions related to the Pokémon dataset and explore the responses provided by the chatbot!
+Feel free to experiment with different questions related to the Pokemon dataset and explore the responses provided by the chatbot!
 
 #### Note
 The accuracy and quality of responses depend on the language model's training and the data available in the Pokémon dataset. For more accurate results, consider fine-tuning the language model on a more domain-specific dataset.
