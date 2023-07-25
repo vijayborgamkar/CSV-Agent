@@ -5,7 +5,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 
 def read_file(file_path, file_extension):
