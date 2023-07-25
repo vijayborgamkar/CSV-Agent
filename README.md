@@ -24,7 +24,7 @@ The script allows you to interact with the Pokémon dataset by asking questions 
 #### Getting Started
 1. Clone this repository to your local machine or download code files.
 2. Set up your OpenAI API key by assigning it to the OPENAI_API_KEY environment variable.
-3. Ensure you have a dataset in one of the following formats: CSV, Excel (XLSX), JSON, or Google BigQuery (GBQ). For this example, a Pokémon dataset in CSV format is provided through a link.
+3. Ensure you have a dataset in one of the following formats: CSV, Excel (XLSX), JSON, or Google BigQuery (GBQ). For this example, a Pokemon dataset in CSV format is provided through a link.
 4. Replace the file_path variable in the run_code function with the link to your dataset. For example, if you have a local file named pokemon.csv, you can set file_path = 'pokemon.csv'.
 5. Execute the script using a Python interpreter.
 
