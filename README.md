@@ -1,6 +1,6 @@
 ## Language Chain Chatbot for CSV, Excel etc
 
-This repository contains a Python script that implements a language chain chatbot for analyzing Pokémon data. The chatbot uses the Language Chain library, which incorporates OpenAI's powerful language models to interact with users and answer questions related to the Pokémon dataset.
+This repository contains a Python script that implements a language chain chatbot for analyzing Pokemon data. The chatbot uses the Language Chain library, which incorporates OpenAI's powerful language models to interact with users and answer questions related to the Pokémon dataset.
 
 Prerequisites
 Before running the script, ensure you have the following libraries installed:
@@ -18,7 +18,7 @@ You can install these libraries using pip:
 
 The script allows you to interact with the Pokémon dataset by asking questions in natural language. It utilizes the Language Chain library, which provides two agents:
 
-1. create_csv_agent(OpenAI(temperature=0), "pokemon.csv", verbose=True): This agent uses the GPT-3 language model provided by OpenAI to answer your questions based on the Pokémon dataset stored in a CSV file named pokemon.csv.
+1. create_csv_agent(OpenAI(temperature=0), "pokemon.csv", verbose=True): This agent uses the GPT-3.5/GPT-4 language model provided by OpenAI to answer your questions based on the Pokémon dataset stored in a CSV file named pokemon.csv.
 2. create_csv_agent(ChatOpenAI(temperature=0, model_name="gpt-4"), "pokemon.csv", verbose=True): This agent employs the GPT-4 language model, also provided by OpenAI, to respond to your queries.
 
 #### Getting Started
@@ -60,7 +60,7 @@ Feel free to experiment with different questions related to the Pokémon dataset
 #### Note
 The accuracy and quality of responses depend on the language model's training and the data available in the Pokémon dataset. For more accurate results, consider fine-tuning the language model on a more domain-specific dataset.
 
-Enjoy interacting with your Pokémon data using the Language Chain chatbot! If you have any questions or face any issues, please open an issue in this repository.
+Enjoy interacting with your Pokemon data using the Language Chain chatbot! If you have any questions or face any issues, please open an issue in this repository.
 
 
-Please ensure you comply with the terms of use of the OpenAI API and respect the data usage rights of the Pokémon dataset.
+Please ensure you comply with the terms of use of the OpenAI API and respect the data usage rights of the Pokemon dataset.
