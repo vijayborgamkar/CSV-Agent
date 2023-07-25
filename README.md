@@ -16,7 +16,7 @@ You can install these libraries using pip:
 
 #### How it works
 
-The script allows you to interact with the Pokémon dataset by asking questions in natural language. It utilizes the Language Chain library, which provides two agents:
+The script allows you to interact with the Pokemon dataset by asking questions in natural language. It utilizes the Language Chain library, which provides two agents:
 
 1. create_csv_agent(OpenAI(temperature=0), "pokemon.csv", verbose=True): This agent uses the GPT-3.5/GPT-4 language model provided by OpenAI to answer your questions based on the Pokémon dataset stored in a CSV file named pokemon.csv.
 2. create_csv_agent(ChatOpenAI(temperature=0, model_name="gpt-4"), "pokemon.csv", verbose=True): This agent employs the GPT-4 language model, also provided by OpenAI, to respond to your queries.
